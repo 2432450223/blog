@@ -13,7 +13,7 @@ const members = [
   // },
   {
     avatar: '/img/one.jpg',
-    name: '年年有鲨鱼',
+    name: '年年有鲨余',
     title: '作者',
     links: [
       { icon: 'github', link: 'https://github.com/2432450223' },
