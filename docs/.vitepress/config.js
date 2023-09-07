@@ -64,12 +64,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/2432450223/blog' }
     ],
 
     footer:{
       message:'仅供学习交流，切勿进行商务用途。',
-      copyright:'Copyright © 2023-present Yu'
+      copyright:'Copyright ©2023 年年有鲨余'
     }
   }
 })
