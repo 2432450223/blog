@@ -4,6 +4,7 @@
 ```python
 # 打印Hello, world 
 print('Hello, world')
+# Hello,world
 ```
 
 ### input( )函数
@@ -12,6 +13,7 @@ print('Hello, world')
 ```python
 name = input("请输入你的昵称：") 
 print("你好，"+ name + "！")
+# 请输入你的昵称:哈哈哈 -> 你好,哈哈哈!
 ```
 
 ## 数据类型转换
@@ -23,7 +25,7 @@ print("你好，"+ name + "！")
 name = input("请输入你的昵称：") 
 # 其实在此处有name = str(name)的一个过程 
 print("你好，"+ name + "！")
-# 请输入你的昵称：你好，行远见大！
+# 请输入你的昵称：你好，xxx！
 ```
 
 ### 整数型:int( )
