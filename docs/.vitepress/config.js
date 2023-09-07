@@ -43,7 +43,7 @@ export default defineConfig({
         text: 'npm',
         items: [
           { text: 'npm常用指令', link: '/npm' },
-          { text: 'git常用指令', link: '/git常用指令' },
+          { text: 'git常用指令', link: '/git' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
