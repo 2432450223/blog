@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "年年有鲨鱼"
+  name: "年年有鲨余"
   text: "个人技术栈笔记"
   tagline: 程序人员写程序，又拿程序换酒钱。
   actions:

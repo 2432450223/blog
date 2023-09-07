@@ -6,14 +6,14 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true, // 使用默认的显示方式
   themeConfig: {
-    lastUpdated: {
-      text:'最后更新于',
-      formatOptions:{
-        dataStyle:'short',
-        timeStyle:'short'
-      }
-    },
-    // lastUpdated: '最后更新于 {YYYY}-{MM}-{DD}', // 自定义显示方式
+    // lastUpdated: {
+    //   text:'最后更新于',
+    //   formatOptions:{
+    //     dataStyle:'',
+    //     timeStyle:'medium'
+    //   }
+    // },
+    lastUpdatedText: '最后更新于', // 自定义显示方式
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
