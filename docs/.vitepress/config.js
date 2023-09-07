@@ -5,30 +5,38 @@ export default defineConfig({
   title: "🦈",
   description: "A VitePress Site",
   lastUpdated: true, // 使用默认的显示方式
-  // lastUpdated: '最后更新于 {YYYY}-{MM}-{DD}', // 自定义显示方式
   themeConfig: {
     lastUpdated: {
-      text:'Updated at',
+      text:'最后更新于',
       formatOptions:{
         dataStyle:'short',
         timeStyle:'short'
       }
     },
+    // lastUpdated: '最后更新于 {YYYY}-{MM}-{DD}', // 自定义显示方式
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      // { text: 'Examples', link: '/markdown-examples' },
       { text: 'npm', link: '/npm' },
       { text: 'node.js', link: '/node.js' },
       { text: 'Members', link: '/members' },
+      { text: 'python', link: '/python(1)' },
     ],
 
     sidebar: [
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // },
       {
-        text: 'Examples',
+        text: 'python',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'python基础一', link: '/python(1)' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
       {
