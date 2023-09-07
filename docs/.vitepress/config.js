@@ -3,9 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "🦈",
+  head:[['link', { rel: 'icon', href: './img/one.jpg' }]],
   description: "A VitePress Site",
   lastUpdated: true, // 使用默认的显示方式
   themeConfig: {
+    // logo:"../img/shark.png",
     search: {
       provider: 'local',
       options: {
