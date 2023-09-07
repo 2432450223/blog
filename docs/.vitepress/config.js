@@ -18,7 +18,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // { text: 'Examples', link: '/markdown-examples' },
-      { text: 'npm', link: '/npm' },
+      { text: '工作常用指令', link: '/npm' },
       { text: 'node.js', link: '/node.js' },
       { text: 'Members', link: '/members' },
       { text: 'python', link: '/python(1)' },
@@ -43,6 +43,7 @@ export default defineConfig({
         text: 'npm',
         items: [
           { text: 'npm常用指令', link: '/npm' },
+          { text: 'git常用指令', link: '/git常用指令' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       },
