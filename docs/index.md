@@ -8,11 +8,14 @@ hero:
   tagline: 程序人员写程序，又拿程序换酒钱。
   actions:
     - theme: brand
-      text: Markdown
-      link: /markdown-examples
+      text: 工作常用
+      link: /npm
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: python
+      link: /python(1)
+    - theme: alt
+      text: 团队成员
+      link: /members
   image-bg: ''
   image-filter: ''
   image : 
